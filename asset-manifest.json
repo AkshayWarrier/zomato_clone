@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/zomato_clone/static/css/main.4a768bde.css",
-    "main.js": "/zomato_clone/static/js/main.fb7d371f.js",
+    "main.js": "/zomato_clone/static/js/main.4a70f80d.js",
     "static/media/borgir.jpg": "/zomato_clone/static/media/borgir.d642aca79f738f660587.jpg",
     "static/media/chicken.jpg": "/zomato_clone/static/media/chicken.9da1ae77f0b8394356bf.jpg",
     "static/media/sub.jpg": "/zomato_clone/static/media/sub.efcb9241900c894fee19.jpg",
@@ -34,10 +34,10 @@
     "static/media/momo.jpg": "/zomato_clone/static/media/momo.a31da2a465dc145a6175.jpg",
     "index.html": "/zomato_clone/index.html",
     "main.4a768bde.css.map": "/zomato_clone/static/css/main.4a768bde.css.map",
-    "main.fb7d371f.js.map": "/zomato_clone/static/js/main.fb7d371f.js.map"
+    "main.4a70f80d.js.map": "/zomato_clone/static/js/main.4a70f80d.js.map"
   },
   "entrypoints": [
     "static/css/main.4a768bde.css",
-    "static/js/main.fb7d371f.js"
+    "static/js/main.4a70f80d.js"
   ]
 }
