@@ -25,3 +25,17 @@
         gap:0.5%;
     }
 }
+
+@media (max-width:500px) {
+    .text-container.two{
+        margin-top: 2%;
+    }
+    .tags{
+        font-size: 12px;
+    }
+    .price{
+        font-size: 12px;
+    }
+
+    
+}
