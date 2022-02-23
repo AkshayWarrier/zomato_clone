@@ -41,7 +41,7 @@ const Header = () => {
                 <Option id = "o3" icon = {faBeer} text = "Nightlife"  current = {currentOption} onClick = {(e) => {setOption(e.target.id)}}/>
             </div>
         </div>
-        {currentOption === "o1" ? () => {<Delivery/>;} : null}
+        {currentOption === "o1" ? <Delivery/> : null}
         </>
     );
 }
