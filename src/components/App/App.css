@@ -1,5 +1,13 @@
 .App{
     padding-left: 12%;
     padding-right: 12%;
-    height: 100%;
+    width:100%;
+    box-sizing: border-box;
+}
+
+@media (max-width:800px) {
+    .App{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
 }

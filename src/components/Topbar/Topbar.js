@@ -5,7 +5,7 @@ import HiddenMenu from "./HiddenMenu";
 import './Topbar.css'
 
 const Topbar = () => {
-    const [hidden, setHidden] = useState({hidden:true});
+    const [hidden, setHidden] = useState({hidden:false});
     const toggleHidden = () => {
         setHidden({hidden:!hidden.hidden});
     }
@@ -20,15 +20,16 @@ const Topbar = () => {
                     <FontAwesomeIcon className="arrow" onClick={toggleHidden} icon = {faCaretDown}/>
                     {hidden.hidden && <HiddenMenu/>}     
                 </div>
-                <p className="bar">|</p>
                 <div className="search-box">
                     <FontAwesomeIcon className="search" icon= {faSearch}/>
                     <input type="text" placeholder="Search for restaurants, cuisines, dishes, etc."/>
                 </div>
             </div>
-
+            <div className="profile">
+                <img className="profile-pic" src={require('./profile.jpg')} alt = "hello"/>
+                <p className="profile-name">Johnny Doe</p>
+            </div>
         </div>
-
     );
 }
 

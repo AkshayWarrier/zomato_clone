@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.food-container{
+    display:flex;
+    width: 100%;
+    gap: 4%;
+    overflow:hidden;
+}
+.btn{
+    display: inline-block;
+}
+
+.eat{
+    font-weight: 400;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 30px;
+}
+
+.food-item{
+    width:160px;
+    height:max-content;
+}
+.food-name{
+    font-size: 22px;
+    text-align: center;
+    margin: 0;
+}
+.delivery img{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+}
+/* .burger{} */
