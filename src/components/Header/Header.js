@@ -3,6 +3,7 @@ import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faBeer, faCutlery, faMotorcycle } from '@fortawesome/free-solid-svg-icons';
 import Delivery from '../Delivery/Delivery';
+import Restraunts from '../Restaurants/Restraunts';
 
 const Option = (props) => {
     if(props.current === props.id){
@@ -40,7 +41,7 @@ const Header = () => {
                 <Option id = "o3" icon = {faBeer} text = "Nightlife"  current = {currentOption} onClick = {(e) => {setOption(e.target.id)}}/>
             </div>
         </div>
-        {currentOption === "o1" ? <Delivery /> : null}
+        {currentOption === "o1" ? () => {<Delivery/>;} : null}
         </>
     );
 }

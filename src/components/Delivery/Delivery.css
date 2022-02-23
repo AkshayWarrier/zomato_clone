@@ -7,17 +7,37 @@
     overflow:hidden;
 }
 .btn{
-    display: inline-block;
+    position: relative;
+    z-index: 1;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    text-align: center;
+}
+.left{
+    top:100px;
+    left:-7%;
+}
+.right{
+    top:-130px;
+    left:100%;
+}
+
+.fa-angle-left ,.fa-angle-right{
+    margin-top: 12px;
 }
 
 .eat{
     font-weight: 400;
     padding-top: 3%;
-    padding-bottom: 3%;
+    margin:0;
     font-size: 30px;
 }
 
 .food-item{
+    position: relative;
     width:160px;
     height:max-content;
 }
@@ -31,4 +51,32 @@
     height:150px;
     border-radius: 50%;
 }
-/* .burger{} */
+
+@media (max-width:800px) {
+    .food-container{
+        display: grid;
+        grid-template-columns: 1fr  1fr 1fr;
+        justify-content: center;
+        gap: 2%;
+    }
+    .eat{
+        font-size: 25px;
+    }
+    .btn{
+        display: none;
+    }
+    #f7,#f8,#f9,#f10,#f11,#f12{
+        display: none;
+    }
+    #f1 img,#f2 img,#f3 img,#f4 img, #f5 img,#f6 img{
+        width:100px;
+        height: 100px;
+    }
+    .food-name{
+        font-size: 18px;
+    }
+    .food-item{
+        width:100px;
+        height:max-content;
+    }
+}
