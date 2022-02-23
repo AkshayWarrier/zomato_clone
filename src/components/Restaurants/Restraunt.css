@@ -1,6 +1,6 @@
 
 .restraunt{
-    width:328px;
+    width:100%;
     padding:3%;
     padding-bottom: 6%;
     border-radius: 10px;
@@ -25,7 +25,7 @@
     align-items: center;
     height:15px;
     justify-content: space-between;
-    /* margin-top:3%; */
+    margin-top:3%;
 }
 .tags{
     margin:0;
@@ -54,3 +54,16 @@
 .text-container.two{
     margin-top: 10%;
 }
+@media (max-width:800px) {
+    .text-container.two{
+        margin-top: 2%;
+    }
+    .restraunt{
+        width:80%;
+    }
+    .restraunt img{
+        height: 300px;
+    }
+    
+}
+    
